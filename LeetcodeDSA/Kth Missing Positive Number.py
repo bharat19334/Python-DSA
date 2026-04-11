@@ -11,7 +11,8 @@ def kth_missing_number(nums):
         if value == k:
             return key
 nums = [2,3,4,7,11]
-k = 7
+k = 2
 print(kth_missing_number(nums))
+
 
 

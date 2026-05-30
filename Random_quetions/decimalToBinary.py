@@ -10,3 +10,10 @@ def dec_to_bin(n):
     return ans
 n = 250
 print(dec_to_bin(n))
+
+
+
+# 1-10 binary numbers
+n = 10
+for i in range(1,n+1):
+    print(dec_to_bin(i))

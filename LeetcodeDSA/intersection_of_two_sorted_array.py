@@ -1,7 +1,11 @@
 def intersection(nums1,nums2):
-    set1 = set(nums1)
-    set2 = set(nums2)
-    return list(set1 & set2)
+    box = []
+    nums1 = set(nums1)
+    nums2 = set(nums2)
+    for n in nums1:
+        if n in nums2:
+            box.append(n)
+    return box
 
 nums1 = [1,2,3,4,5]
 nums2 = [4,5,6,7,9]

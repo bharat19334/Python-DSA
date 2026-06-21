@@ -6,7 +6,7 @@ def Add_array(arr1,arr2):
     i = 0
     j = 0
     ans = []
-    
+    if a
     while i<len(arr1) and j<len(arr2):
         if arr1[i]<arr2[j]:
             ans.append(arr1[i])

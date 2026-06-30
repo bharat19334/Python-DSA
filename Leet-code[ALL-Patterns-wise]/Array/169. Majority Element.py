@@ -8,6 +8,6 @@ class Solution(object):
             if count > len(nums)//2:
                 return nums[i]
             else:
-                count = 1
+                count = 0
 
             

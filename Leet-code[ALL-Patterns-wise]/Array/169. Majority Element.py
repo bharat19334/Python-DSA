@@ -1,3 +1,20 @@
+# moore's voting algorithum
+# optimal
+class Solution(object):
+    def majorityElement(self, nums):
+        freq = 0
+        ans = 0
+        for i in range(0,len(nums)):
+            if freq == 0:
+                ans = nums[i]
+            if ans == nums[i]:
+                freq +=1
+
+            else:
+                freq-=1
+        return ans
+    
+    
 # brute force Solution
 class Solution(object):
     def majorityElement(self, nums):
@@ -13,7 +30,6 @@ class Solution(object):
         return -1
             
 # its best solution as compare to Brute force
-
 class Solution(object):
     def majorityElement(self, nums):
         nums.sort()

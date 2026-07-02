@@ -9,5 +9,5 @@ class Solution(object):
                 return nums[i]
             else:
                 count = 0
-
+        return -1
             
